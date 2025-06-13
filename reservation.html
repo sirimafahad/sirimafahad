@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Réservation d'hôtel</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <header>
+    <img src="image/hotel.jpeg" alt="Logo" class="logo">
+    <h1>Réservation d'hôtel</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="patrimoine.html">Patrimoine</a></li>
+        <li><a href="reservation.html">Réservation d'hôtel</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main style="background-color: #90ee90;">
+    
+    <form>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required><br>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="date-arrivee">Date d'arrivée :</label>
+      <input type="date" id="date-arrivee" name="date-arrivee" required><br>
+
+      <label for="date-depart">Date de départ :</label>
+      <input type="date" id="date-depart" name="date-depart" required><br>
+
+      <label for="type">Type de chambre :</label>
+      <select id="type" name="type">
+        <option>Simple</option>
+        <option>Double</option>
+        <option>Suite</option>
+      </select><br>
+
+      <input type="submit" value="Réserver">
+    </form>
+  </main>
+  <footer><p>&copy; 2025 - Site Touristique de Bobo-Dioulasso</p></footer>
+</body>
+</html>
+

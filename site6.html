@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Silures Sacrés de Dafra - Bobo-Dioulasso</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css"> 
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            color: #2c3e50;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00695c;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        h1 {
+            margin: 0.5rem 0;
+        }
+        .content {
+            max-width: 1000px;
+            margin: auto;
+            padding: 2rem;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .highlight {
+            background-color: #a7ffeb;
+            padding: 1rem;
+            border-left: 5px solid #26a69a;
+            margin: 2rem 0;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background-color: #004d40;
+            color: white;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        button {
+            background-color: #00796b;
+            color: white;
+            border: none;
+            padding: 0.7rem 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004d40;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Les Silures Sacrés de Dafra</h1>
+        <p  style="color: black">Un trésor spirituel et écologique à Bobo-Dioulasso</p>
+    </header>
+            <nav>
+          <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="patrimoine.html">Patrimoine</a></li>
+              <li><a href="reservation.html">Réservation d'hôtel</a></li>
+              <li><a href="galerie.html">Galerie</a></li>
+          </ul>
+         </nav>
+    <div class="content">
+        <div class="highlight">
+            <h2>Un site sacré et mystérieux</h2>
+            <p  style="color: black">Les silures de Dafra sont bien plus que de simples poissons. Pour les peuples Bobo Mandarè, ils incarnent des esprits ancestraux et sont protégés par des rites sacrés. Le site est visité régulièrement pour des pèlerinages et cérémonies.</p>
+        </div>
+
+        <div class="image-gallery">
+            <img src="image/silures3.jpg" alt="Mare sacrée de Dafra">
+            <img src="image/Lac-sacré-de-Dafra.jpg" alt="Silures sacrés">
+            <img src="image/dafsil.jpeg" alt="Vue spirituelle du site">
+        </div>
+
+        <h2>Respect et traditions</h2>
+        <p  style="color: black">Il est interdit de porter du rouge, de l’or ou de capturer les silures. Si l’un d’eux meurt, il reçoit des funérailles comme un humain. L’eau de la mare est considérée comme sacrée et bénéfique.</p>
+
+        <h2>Planifiez votre visite</h2>
+        <p  style="color: black">Le site est situé à environ 8 km au sud de Bobo-Dioulasso, accessible à pied ou en moto. Il est recommandé d’être accompagné d’un guide local pour respecter les coutumes.</p>
+
+        <button onclick="window.location.href='reservation.html'">
+           Réserver une excursion
+        </button>
+    </div>
+    
+    <footer>
+        &copy; 2025 Site touristique de Bobo-Dioulasso | Conçu pour valoriser le patrimoine culturel
+    </footer>
+
+    <script>
+        function showAlert() {
+            alert("Selon la tradition, si un silure vous regarde dans les yeux, c’est que l’esprit vous reconnaît !");
+        }
+    </script>
+</body>
+</html>
